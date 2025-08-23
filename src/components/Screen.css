@@ -1,0 +1,12 @@
+.Screen {
+    height: 100vh;
+    width: calc(( 100vh * 4 ) / 3);
+    position: fixed;
+    transform: translate(-50%, -50%);
+    top: 50%;
+    left: 50%;
+    border-image-source: url("/assets/desktop/ScreenBorder.png");
+    border-image-slice: 32;
+    border-image-repeat: stretch;
+    border-image-width: 2em;
+}

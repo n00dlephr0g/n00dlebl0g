@@ -1,0 +1,17 @@
+.Desktop {
+    /* positioning */
+    height: calc(100vh - 4em); 
+    width: calc(( 100vh * 4 ) / 3 - 4em);
+    position:fixed;
+    left: 2em;
+    top: 2em;
+
+    /* background shenanigans */
+    background-image: url("/assets/desktop/Bliss.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+    
+    /* component management */
+    display: grid;
+    
+}

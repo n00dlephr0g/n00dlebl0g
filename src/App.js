@@ -1,14 +1,11 @@
 import m from "mithril";
-import "./css/App.css";
-import { Window } from "./components/Window";
+import "./App.css";
+import { Screen } from "/src/components/Screen";
 
 export const App = () => {
     return {
         view: function(vnode) {
-            return m(Window, {style: "center"}, [
-                    m("h1", {style: "margin:auto"},"My Mithril App"),
-            ]
-                );
+            return m(Screen);
         },
     };
 };
