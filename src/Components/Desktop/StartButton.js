@@ -1,6 +1,6 @@
 import m from "mithril";
 
-export const Taskbar = {
+export const StartButton = {
     view: view,
 };
 
@@ -8,7 +8,7 @@ function view(vnode)
 {
     let type = "div";
     let attributes = {
-        class: "Taskbar"
+        class: "StartButton"
     }
     let components = [
         vnode.children,

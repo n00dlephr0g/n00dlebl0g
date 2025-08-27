@@ -1,10 +1,11 @@
 import m from "mithril";
 import "./App.css";
-import { Screen } from "/src/components/Screen";
+import { Screen } from "./Components/Screen"
 
 export const App = () => {
     return {
-        view: function(vnode) {
+        view: function(vnode) 
+        {
             return m(Screen);
         },
     };

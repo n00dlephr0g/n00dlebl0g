@@ -2,7 +2,7 @@
     /* positioning */
     height: calc(100vh - 4em); 
     width: calc(( 100vh * 4 ) / 3 - 4em);
-    position:fixed;
+    position:relative;
     left: 2em;
     top: 2em;
 

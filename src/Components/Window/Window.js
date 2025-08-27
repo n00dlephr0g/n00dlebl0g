@@ -1,5 +1,5 @@
 import m from "mithril";
-import "/src/css/Window.css"
+import "xp.css"
 
 export const Window = {
     oninit: function(vnode) { 

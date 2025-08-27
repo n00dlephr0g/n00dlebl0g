@@ -1,9 +1,11 @@
 import m from "mithril";
 import { Taskbar } from "./Taskbar";
+import { windowStore } from "../../Store";
 import "./Desktop.css"
 
 export const Desktop = {
     view: view,
+    // oninit: oninit,
 };
 
 function view(vnode)
@@ -12,7 +14,8 @@ function view(vnode)
     let attributes = {
         class: "Desktop"
     }
-    let components = [
+    let components = [];
+    [
         // the rest of the children 
         vnode.children,
         // the taskbar
@@ -24,3 +27,8 @@ function view(vnode)
         components
     )
 }
+
+// function oninit(vnode)
+// {
+//     vnode.state.windows = windows;
+// }

@@ -3,10 +3,8 @@ import "./Screen.css"
 import { Desktop } from "./Desktop/Desktop";
 
 
-export const Screen = () => {
-    return {
-        view: view
-    };
+export const Screen = {
+    view: view
 };
 
 function view(vnode)
