@@ -14,7 +14,7 @@ function view(vnode)
     let attributes = {
         class: "Desktop"
     }
-    let windowContainer = m()
+    let windowContainer = m("div")
     let components = [
         // the rest of the children
         ,
