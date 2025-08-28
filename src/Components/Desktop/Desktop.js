@@ -1,6 +1,6 @@
 import m from "mithril";
 import { Taskbar } from "./Taskbar";
-import { windowStore } from "../../Store";
+import { store, windowEnum, windowFunctions } from "../../Store";
 import "./Desktop.css"
 
 export const Desktop = {
@@ -14,10 +14,10 @@ function view(vnode)
     let attributes = {
         class: "Desktop"
     }
-    let components = [];
-    [
-        // the rest of the children 
-        vnode.children,
+    let windowContainer = m()
+    let components = [
+        // the rest of the children
+        ,
         // the taskbar
         m(Taskbar)
     ]
